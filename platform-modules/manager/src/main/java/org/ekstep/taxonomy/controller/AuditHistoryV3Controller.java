@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
- * The Class AuditHistoryController, is the main entry point for the High Level
+ * The Class AuditHistoryV3Controller, is the main entry point for the High Level
  * Audit Operations, mostly it holds the API Method related to Audit Logs
  * Workflow Management
  * 
