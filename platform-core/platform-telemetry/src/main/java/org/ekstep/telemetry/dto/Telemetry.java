@@ -27,6 +27,7 @@ public class Telemetry {
 	private Map<String, Object> edata;
 	private List<Map<String, Object>> cdata;
 	private List<String> tags;
+	private long syncts = ets;
 
 	/**
 	 * @param eid
@@ -224,6 +225,22 @@ public class Telemetry {
 	 */
 	public void setCdata(List<Map<String, Object>> cdata) {
 		this.cdata = cdata;
+	}
+
+	/**
+	 *
+	 * @return syncts
+	 */
+	public long getSyncts() {
+		return syncts;
+	}
+
+	/**
+	 *
+	 * @param syncts
+	 */
+	public void setSyncts(long syncts) {
+		this.syncts = syncts;
 	}
 
 }
